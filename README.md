@@ -5,6 +5,18 @@
 **Project Name**: Experience_sharing
 **Contributor**: Santosh Chapagai
 
+### Technology Stack
+**Front End**:
+- Vite
+- TypeScript
+- Tailwind
+
+**Backend**:
+- Node JS
+
+**Database**:
+- MongoDB
+
 ### Project setup
 
 **Clone Respository**: Clone the project repository from Github
