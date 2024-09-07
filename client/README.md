@@ -1,4 +1,4 @@
-# Front End of SHaring Experience
+# Front End of Sharing Experience
 
 ## Project Information
 **Technology Stack**:
