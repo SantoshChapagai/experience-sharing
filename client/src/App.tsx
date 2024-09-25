@@ -1,9 +1,16 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Layout } from './components/Layout';
 export const App: React.FC = () => {
 
   return (
-    <div className="text-red-600">
-      App will be here
-    </div>
+    <Router>
+      <Layout>
+        <Routes>
+          <div>Hello app is here</div>
+          <Route />
+        </Routes>
+      </Layout>
+    </Router>
   )
 }
 
