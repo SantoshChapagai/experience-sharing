@@ -1,16 +1,14 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { Layout } from './components/Layout';
+import { AppRouter } from './router/AppRouter';
 export const App: React.FC = () => {
 
   return (
-    <Router>
+    <BrowserRouter>
       <Layout>
-        <Routes>
-          <div>Hello app is here</div>
-          <Route />
-        </Routes>
+        <AppRouter />
       </Layout>
-    </Router>
+    </BrowserRouter>
   )
 }
 
