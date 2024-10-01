@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <div className='max-w-[820px] w-full mx-auto mt-16 bg-sky-300'>
+    <div className='max-w-[820px] w-full mx-auto mt-16 bg-sky-300 rounded-xl'>
         <form
           className='flex flex-col p-4 gap-4'
         >
