@@ -6,7 +6,6 @@ export const Header = () => {
       <Link to='/'>Home</Link>
       <div className="flex gap-4">
       <Link to='/share'>Share</Link>
-      <Link to='/view'>View</Link>
       <Link to='/contact'>Contact</Link>
       </div>
     </div>
