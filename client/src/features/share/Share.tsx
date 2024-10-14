@@ -1,7 +1,25 @@
+import { Form, Formik } from "formik"
+import { ShareSchema } from "../../validation/shareSchema";
+
 export const Share = () => {
+  const handleShare = () => {
+    console.log('shared successfully');
+  }
     return (
       <div className='max-w-[820px] w-full mx-auto mt-16 bg-sky-300 rounded-xl'>
-          <form
+        <Formik
+          initialValues={
+            {
+              name: '',
+              country: '',
+              title: '',
+              experience: '',
+            }
+          }
+          validationSchema={ShareSchema}
+          onSubmit={handleShare}
+        >
+          <Form
             className='flex flex-col p-4 gap-4'
           >
               <div className='flex flex-col gap-2'>
@@ -25,9 +43,10 @@ export const Share = () => {
                 />
               </div>
               <div className='text-center mt-2'>
-                  <button type='submit' className='bg-sky-800 text-white p-2 rounded w-1/4'>Submit</button>
+                <button type='submit' className='bg-sky-800 text-white p-2 rounded w-1/4'>Submit</button>
               </div>
-          </form>
+          </Form>
+        </Formik>
       </div>
     )
   }
