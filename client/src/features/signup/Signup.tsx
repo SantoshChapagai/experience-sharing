@@ -35,12 +35,8 @@ export const Signup = () => {
                 <input id='cemail' placeholder='Email address'  className='p-2 rounded border'/>
               </div>
               <div className='flex flex-col gap-2'>
-                <label htmlFor='password'>Phone number</label>
+                <label htmlFor='password'>Password</label>
                 <input type='password' id='password' placeholder='Your phone number'  className='p-2 rounded border'/>
-              </div>
-              <div className='flex flex-col gap-2'>
-                <label htmlFor='subject'>Subject</label>
-                <input id='subject' placeholder='Subject'  className='p-2 rounded border'/>
               </div>
               <div className='text-center mt-4'>
                 <button type='submit' className='bg-sky-800 text-white p-2 rounded w-1/4'>Submit</button>
