@@ -24,7 +24,7 @@ export const Signin = () => {
                 id='email'
                 placeholder='Email address'
                 className='p-2 rounded border'
-                {...getFieldProps('email')} // connect to Formik state
+                {...getFieldProps('email')}
               />
               {errors.email && touched.email && (
                 <div className='text-red-500'>{errors.email}</div>
@@ -35,9 +35,9 @@ export const Signin = () => {
               <input
                 type='password'
                 id='password'
-                placeholder='Your password' // Correct placeholder
+                placeholder='Your password'
                 className='p-2 rounded border'
-                {...getFieldProps('password')} // connect to Formik state
+                {...getFieldProps('password')}
               />
               {errors.password && touched.password && (
                 <div className='text-red-500'>{errors.password}</div>
