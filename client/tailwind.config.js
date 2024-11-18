@@ -56,11 +56,11 @@ module.exports = {
           100: "#B71C1C",
         },
         warning: {
-          10: "var(--clr-warning-10)",
-          20: "var(--clr-warning-20)",
-          30: "var(--clr-warning-30)",
-          40: "var(--clr-warning-40)",
-          50: "var(--clr-warning-50)",
+          10: "#FF5722",
+          20: "#F4511E",
+          30: "#E64A19",
+          40: "#D84315",
+          50: "#BF360C",
         },
         info: {
           10: "var(--clr-info-10)",
