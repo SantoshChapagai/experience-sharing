@@ -32,7 +32,7 @@ export const Contact = () => {
                 className="p-2 rounded border"
               />
               {errors.name && touched.name && (
-                <div className="text-red-500">{errors.name}</div>
+                <div className="text-warning-30">{errors.name}</div>
               )}
             </div>
             <div className="flex flex-col gap-2">
@@ -44,7 +44,7 @@ export const Contact = () => {
                 className="p-2 rounded border"
               />
               {errors.email && touched.email && (
-                <div className="text-red-500">{errors.email}</div>
+                <div className="text-warning-30">{errors.email}</div>
               )}
             </div>
             <div className="flex flex-col gap-2">
@@ -56,7 +56,7 @@ export const Contact = () => {
                 className="p-2 rounded border"
               />
               {errors.phoneNumber && touched.phoneNumber && (
-                <div className="text-red-500">{errors.phoneNumber}</div>
+                <div className="text-warning-30">{errors.phoneNumber}</div>
               )}
             </div>
             <div className="flex flex-col gap-2">
@@ -68,7 +68,7 @@ export const Contact = () => {
                 className="p-2 rounded border"
               />
               {errors.subject && touched.subject && (
-                <div className="text-red-500">{errors.subject}</div>
+                <div className="text-warning-30">{errors.subject}</div>
               )}
             </div>
             <div className="flex flex-col gap-2">
@@ -80,7 +80,7 @@ export const Contact = () => {
                 className="border p-2 overflow-y-auto rounded"
               />
               {errors.message && touched.message && (
-                <div className="text-red-500">{errors.message}</div>
+                <div className="text-warning-30">{errors.message}</div>
               )}
             </div>
             <div className="text-center mt-2">
