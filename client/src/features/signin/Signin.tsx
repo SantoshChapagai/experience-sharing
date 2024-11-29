@@ -27,7 +27,7 @@ export const Signin = () => {
                 {...getFieldProps("email")}
               />
               {errors.email && touched.email && (
-                <div className="text-red-500">{errors.email}</div>
+                <div className="text-warning-30">{errors.email}</div>
               )}
             </div>
             <div className="flex flex-col gap-2">
@@ -40,7 +40,7 @@ export const Signin = () => {
                 {...getFieldProps("password")}
               />
               {errors.password && touched.password && (
-                <div className="text-red-500">{errors.password}</div>
+                <div className="text-warning-30">{errors.password}</div>
               )}
             </div>
             <div className="text-center mt-4">

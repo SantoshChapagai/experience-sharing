@@ -28,7 +28,7 @@ export const Share = () => {
                 className="p-2 rounded border"
               />
               {errors.name && touched.name && (
-                <div className="text-red-500">{errors.name}</div>
+                <div className="text-warning-30">{errors.name}</div>
               )}
             </div>
             <div className="flex flex-col gap-2">
@@ -40,7 +40,7 @@ export const Share = () => {
                 className="p-2 rounded border"
               />
               {errors.country && touched.country && (
-                <div className="text-red-500">{errors.country}</div>
+                <div className="text-warning-30">{errors.country}</div>
               )}
             </div>
             <div className="flex flex-col gap-2">
@@ -52,7 +52,7 @@ export const Share = () => {
                 className="p-2 rounded border"
               />
               {errors.title && touched.title && (
-                <div className="text-red-500">{errors.title}</div>
+                <div className="text-warning-30">{errors.title}</div>
               )}
             </div>
             <div className="flex flex-col gap-2">
@@ -64,7 +64,7 @@ export const Share = () => {
                 className="border p-2 overflow-y-auto rounded"
               />
               {errors.experience && touched.experience && (
-                <div className="text-red-500">{errors.experience}</div>
+                <div className="text-warning-30">{errors.experience}</div>
               )}
             </div>
             <div className="text-center mt-2">
