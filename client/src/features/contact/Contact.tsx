@@ -86,7 +86,7 @@ export const Contact = () => {
             <div className="text-center mt-2">
               <button
                 type="submit"
-                className="bg-primary-100 text-white p-2 rounded w-1/4"
+                className="bg-primary-100 text-neutral-10 p-2 rounded w-1/4"
               >
                 Submit
               </button>
