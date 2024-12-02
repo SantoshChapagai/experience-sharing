@@ -3,6 +3,7 @@ import {
   ContactSchema,
   ContactSchemaType,
 } from "../../validation/ContactSchema";
+import Button from "../../ui/components/Button";
 
 export const Contact = () => {
   const handleContact = (values: ContactSchemaType) => {
@@ -84,12 +85,7 @@ export const Contact = () => {
               )}
             </div>
             <div className="text-center mt-2">
-              <button
-                type="submit"
-                className="bg-primary-100 text-neutral-10 p-2 rounded w-1/4"
-              >
-                Submit
-              </button>
+              <Button text="Submit" />
             </div>
           </Form>
         )}
