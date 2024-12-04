@@ -1,5 +1,9 @@
+import { Card } from "../../ui/Card";
+
 export const Home = () => {
   return (
-    <div>Home will be here</div>
-  )
-}
+    <div className="mt-10">
+      <Card />
+    </div>
+  );
+};
