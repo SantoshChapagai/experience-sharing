@@ -15,7 +15,11 @@ export const Card: React.FC<CardProps> = ({
         <p className="line-clamp-2 text-ellipsis text-sm">{text}</p>
       </div>
       <div className="flex flex-col gap-2">
-        <img src={imageSrc} alt={author} />
+        <img
+          src={imageSrc}
+          alt={author}
+          className="rounded-full h-20 w-20 object-cover"
+        />
         <p>{author}</p>
       </div>
       <div className="w-full md:w-[80%] mx-auto">
