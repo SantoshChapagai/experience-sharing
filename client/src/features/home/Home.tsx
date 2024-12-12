@@ -1,12 +1,13 @@
 import { Card } from "../../ui/Card";
-import {image} from '@src'
+import { image } from "@src";
 
 export const Home = () => {
   const data = [
     {
       id: 1,
       author: "Santosh",
-      userImage: "./santosh.jpg",
+      userImage:
+        "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=600",
       heading: "Old Nepal",
       text: "this is the awesome time that we are witnessing with the major of the hcudsgcu wdgcuywdgc hwsdgcywd hwdgywegd",
     },
