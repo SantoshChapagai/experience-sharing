@@ -14,13 +14,20 @@ export const Card: React.FC<CardProps> = ({
         <h2 className="text-lg font-semibold">{heading}</h2>
         <p className="line-clamp-2 text-ellipsis text-sm">{text}</p>
       </div>
-      <div className="flex flex-col gap-2">
-        <img
-          src={imageSrc}
-          alt={author}
-          className="rounded-full h-20 w-20 object-cover"
-        />
-        <p>{author}</p>
+      <div className="flex flex-col gap-1">
+        {imageSrc ? (
+          <img
+            src={imageSrc}
+            alt={author}
+            className="rounded-xl h-20 w-20 object-cover"
+          />
+        ) : (
+          <div className="h-20 w-24 bg-neutral-10 rounded-lg flex items-center text-center">
+            <p>No images available</p>
+          </div>
+        )}
+
+        <p className="font-semibold">{author}</p>
       </div>
       <div className="w-full md:w-[80%] mx-auto">
         <Button text="See more" onClick={clickButton} />
