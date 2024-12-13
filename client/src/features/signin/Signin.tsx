@@ -1,5 +1,6 @@
 import { Form, Formik } from "formik";
 import { SigninSchema, SigninSchemaType } from "../../validation/signinSchema";
+import Button from "../../ui/components/Button";
 
 export const Signin = () => {
   const handleSignin = (values: SigninSchemaType) => {
@@ -44,12 +45,7 @@ export const Signin = () => {
               )}
             </div>
             <div className="text-center mt-4">
-              <button
-                type="submit"
-                className="bg-primary-100 text-neutral-10 p-2 rounded w-1/4"
-              >
-                Submit
-              </button>
+            <Button text="Submit" />
             </div>
           </Form>
         )}

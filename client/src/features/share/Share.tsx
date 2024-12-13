@@ -1,5 +1,6 @@
 import { Form, Formik } from "formik";
 import { ShareSchema, ShareSchemaType } from "../../validation/shareSchema";
+import Button from "../../ui/components/Button";
 
 export const Share = () => {
   const handleShare = (values: ShareSchemaType) => {
@@ -68,12 +69,7 @@ export const Share = () => {
               )}
             </div>
             <div className="text-center mt-2">
-              <button
-                type="submit"
-                className="bg-primary-100 text-neutral-10 p-2 rounded w-1/4"
-              >
-                Submit
-              </button>
+              <Button text="Submit" />
             </div>
           </Form>
         )}
