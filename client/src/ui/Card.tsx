@@ -23,7 +23,7 @@ export const Card: React.FC<CardProps> = ({
           />
         ) : (
           <div className="h-20 w-24 bg-neutral-10 rounded-lg flex items-center text-center">
-            <p>No images available</p>
+            <p className="font-medium">No images available</p>
           </div>
         )}
 
