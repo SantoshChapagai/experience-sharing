@@ -84,7 +84,7 @@ export const Contact = () => {
                 <div className="text-warning-30">{errors.message}</div>
               )}
             </div>
-            <div className="text-center mt-2">
+            <div className="flex justify-end mt-2">
               <Button text="Submit" />
             </div>
           </Form>

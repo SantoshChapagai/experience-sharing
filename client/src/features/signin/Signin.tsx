@@ -44,8 +44,8 @@ export const Signin = () => {
                 <div className="text-warning-30">{errors.password}</div>
               )}
             </div>
-            <div className="text-center mt-4">
-            <Button text="Submit" />
+            <div className="flex justify-end mt-4">
+              <Button text="Submit" />
             </div>
           </Form>
         )}

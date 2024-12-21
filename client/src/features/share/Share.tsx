@@ -68,7 +68,7 @@ export const Share = () => {
                 <div className="text-warning-30">{errors.experience}</div>
               )}
             </div>
-            <div className="text-center mt-2">
+            <div className="mt-2 flex justify-end">
               <Button text="Submit" />
             </div>
           </Form>
