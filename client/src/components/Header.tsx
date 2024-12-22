@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
-    <div className="bg-primary-20 h-16 text-xl px-8 flex justify-between items-center">
+    <div className="bg-primary-20 h-16 text-xl px-8  flex justify-between items-center">
       <Link to="/">Home</Link>
       <div className="flex gap-4">
         <Link to="/share">Share</Link>
