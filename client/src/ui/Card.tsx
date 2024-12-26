@@ -7,6 +7,7 @@ export const Card: React.FC<CardProps> = ({
   heading,
   text,
   clickButton,
+  buttonText,
 }) => {
   return (
     <div className="w-56 h-fit bg-neutral-30 rounded-lg p-4 flex flex-col gap-4">
@@ -30,7 +31,7 @@ export const Card: React.FC<CardProps> = ({
         <p className="font-semibold">{author}</p>
       </div>
       <div className="">
-        <Button text="See more" onClick={clickButton} />
+        {buttonText && <Button text={buttonText} onClick={clickButton} />}
       </div>
     </div>
   );

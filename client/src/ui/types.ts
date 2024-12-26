@@ -8,5 +8,6 @@ export interface CardProps {
   author?: string;
   heading?: string;
   text?: string;
+  buttonText?: string;
   clickButton?: () => void;
 }

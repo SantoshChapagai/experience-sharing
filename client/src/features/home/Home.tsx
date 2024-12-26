@@ -28,6 +28,7 @@ export const Home = () => {
             imageSrc={item.userImage}
             heading={item.heading}
             text={item.text}
+            buttonText="See more"
           />
         </div>
       ))}
