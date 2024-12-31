@@ -6,7 +6,7 @@ const Button: React.FC<ButtonProps> = ({ text, onClick }) => {
     <button
       onClick={onClick}
       type="submit"
-      className={cn("bg-primary-100 text-neutral-10 p-2 rounded")}
+      className={cn("bg-primary-100 text-neutral-10 p-2 rounded-md")}
     >
       {text}
     </button>
