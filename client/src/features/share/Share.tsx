@@ -59,6 +59,7 @@ export const Share = () => {
             <div className="flex flex-col gap-2">
               <label>Experience</label>
               <textarea
+                maxLength={5000}
                 placeholder="Enter your experience"
                 rows={8}
                 {...getFieldProps("experience")}
