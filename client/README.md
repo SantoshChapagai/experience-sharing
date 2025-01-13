@@ -10,8 +10,8 @@ The website that allows to share your experience on different topics to the peop
 - Typescript
 - Tailwind
 
-**Project Name**: Front-end experience sharing
-**Author**: Santosh Chapagai
+  **Project Name**: Front-end experience sharing
+  **Author**: Santosh Chapagai
 
 ### Start the Project
 
