@@ -21,6 +21,7 @@ export const Home = () => {
   ];
   return (
     <div className="mt-10 flex gap-4">
+      <p>hello</p>
       {data.map((item) => (
         <div key={item.id}>
           <Card
